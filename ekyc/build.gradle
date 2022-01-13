@@ -159,8 +159,8 @@ dependencies {
 //    artifacts.add("default", file('facetec-sdk-9.4.4.aar'))
 //    implementation project(path: ':domain')
 //    implementation project(path: ':facetec', configuration = "default")
-//    implementation project(path: ':facetec')
-    implementation("io.scb:facetec:1@aar")
+    implementation project(path: ':facetec')
+//    implementation("io.scb:facetec:1@aar")
 }
 
 androidExtensions {

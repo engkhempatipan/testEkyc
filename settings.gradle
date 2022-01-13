@@ -1,4 +1,4 @@
 include ':ekyc'
 include ':app'
-//include ':facetec'
+include ':facetec'
 rootProject.name = "TemplateLib"
