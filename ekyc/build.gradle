@@ -170,7 +170,7 @@ androidExtensions {
 
 ext {
     PUBLISH_GROUP_ID = 'io.ekyc.demo'
-    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_VERSION = '1.0.3' // *** important match with Library release version.
     PUBLISH_ARTIFACT_ID = 'ekyc'
 }
 apply plugin: 'maven-publish'
